@@ -1,0 +1,71 @@
+[{
+  "id": 1,
+  "first_name": "Bryanty",
+  "last_name": "Jakoub",
+  "email": "bjakoub0@tumblr.com",
+  "gender": "Male",
+  "ip_address": "151.159.167.142"
+}, {
+  "id": 2,
+  "first_name": "Mirabella",
+  "last_name": "Milstead",
+  "email": "mmilstead1@tiny.cc",
+  "gender": "Female",
+  "ip_address": "33.135.221.168"
+}, {
+  "id": 3,
+  "first_name": "Pauly",
+  "last_name": "Stather",
+  "email": "pstather2@devhub.com",
+  "gender": "Male",
+  "ip_address": "125.141.220.219"
+}, {
+  "id": 4,
+  "first_name": "Linell",
+  "last_name": "Sherwood",
+  "email": "lsherwood3@phoca.cz",
+  "gender": "Female",
+  "ip_address": "223.172.249.33"
+}, {
+  "id": 5,
+  "first_name": "Wyatan",
+  "last_name": "Ready",
+  "email": "wready4@army.mil",
+  "gender": "Male",
+  "ip_address": "220.179.101.188"
+}, {
+  "id": 6,
+  "first_name": "Rockey",
+  "last_name": "McCue",
+  "email": "rmccue5@privacy.gov.au",
+  "gender": "Male",
+  "ip_address": "132.6.165.165"
+}, {
+  "id": 7,
+  "first_name": "Annelise",
+  "last_name": "Schimank",
+  "email": "aschimank6@bbc.co.uk",
+  "gender": "Female",
+  "ip_address": "21.75.123.107"
+}, {
+  "id": 8,
+  "first_name": "Nikola",
+  "last_name": "Greenan",
+  "email": "ngreenan7@elpais.com",
+  "gender": "Male",
+  "ip_address": "76.1.44.119"
+}, {
+  "id": 9,
+  "first_name": "Robbyn",
+  "last_name": "Stonbridge",
+  "email": "rstonbridge8@oracle.com",
+  "gender": "Female",
+  "ip_address": "30.54.201.50"
+}, {
+  "id": 10,
+  "first_name": "Ker",
+  "last_name": "Leirmonth",
+  "email": "kleirmonth9@about.com",
+  "gender": "Male",
+  "ip_address": "113.42.171.16"
+}]

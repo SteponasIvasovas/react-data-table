@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.data-table,
+.data-table th,
+.data-table td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.cell {
+  max-width: 100%;
+}
+
+.cell-input {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline-color: transparent;
+  background-color: transparent;
+  display: inline-block;
+  font-size: inherit;
+  vertical-align: inherit;
+  line-height: inherit;
+}
+
+.cell-span {
+  width: 100%;
+  display: inline-block;
+  overflow: hidden;
+  line-height: inherit;
+}
+
+.cell-header {
+  cursor: default;
+}
