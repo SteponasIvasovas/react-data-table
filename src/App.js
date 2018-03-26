@@ -13,12 +13,11 @@ class App extends Component {
     this.setState({data: JSON.parse(result)});
   }
   handleCellChange({row, col}, value) {
-    this.setState((prevState) => {
-      let newData = prevState.data;
-      let keys = Object.keys(newData[0]);
-      newData[row][keys[col]] = value;
-      return {data: newData};
-    });
+    const newData = this.state.data.slice();
+    const keys = Object.keys(newData[0]);
+    newData[row][keys[col]] = value;
+
+    this.setState({data: newData});
   }
   render() {
     return (
@@ -228,10 +227,6 @@ class DataCell extends Component {
   }
   handleCellChange(coords, event) {
     this.props.onCellChange(coords, event.target.value);
-    // this.setState({width: this.cell.offsetWidth});
-  }
-  componentDidMount() {
-    // this.setState({width: this.cell.offsetWidth});
   }
   componentDidUpdate() {
     if (this.state.focus) {
@@ -252,14 +247,12 @@ class DataCell extends Component {
             onBlur={this.handleCellBlur}
             onChange={this.handleCellChange.bind(this, {row, col})}
             ref={(cell) => {this.cell = cell;}}
-            // style={{width: this.state.width}}
             value={this.props.value} />) :
           (<span
             className='cell-span'
             onClick={this.handleCellFocus}
             onBlur={this.handleCellBlur}
-            // style={{minWidth: this.state.width}}
-            ref={(input) => { this.cell = cell; }}>
+            ref={(cell) => {this.cell = cell;}}>
               {this.props.value}
            </span>);
     return cell;
